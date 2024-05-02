@@ -14,8 +14,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
           <p>Julian Gonzalez</p>
         </NavbarBrand>
         <NavbarContent>
-          <NavbarItem><Link href="#home">// home</Link></NavbarItem>
-          <NavbarItem><Link href="#skills">// skills</Link></NavbarItem>
+          <NavbarItem><Link href="#home">{"// home"}</Link></NavbarItem>
+          <NavbarItem><Link href="#skills">{"// skills"}</Link></NavbarItem>
           <NavbarItem><Link href="#projects">{"// projects"}</Link></NavbarItem>
         </NavbarContent>
         <NavbarContent>
