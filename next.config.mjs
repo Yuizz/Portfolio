@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  async redirects() {
+    return [
+       {
+        source: '/',
+        destination: 'https://iamyuizzdev.notion.site/Portfolio-ab6282f669234bb784acff04a3bad437',
+        permanent: false,
+      },
+    ]
+  }
+};
 
 function withSVG(nextConfig) {
   return {

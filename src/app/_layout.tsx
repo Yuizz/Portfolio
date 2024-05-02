@@ -11,12 +11,12 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
     <main className="text-foreground bg-background">
       <Navbar className="shadow-sm">
         <NavbarBrand>
-          <p>Yuizz Portfolio</p>
+          <p>Julian Gonzalez</p>
         </NavbarBrand>
         <NavbarContent>
-          <NavbarItem><Link href="#home">Home</Link></NavbarItem>
-          <NavbarItem><Link href="#skills">Skills</Link></NavbarItem>
-          <NavbarItem><Link href="#projects">Projects</Link></NavbarItem>
+          <NavbarItem><Link href="#home">// home</Link></NavbarItem>
+          <NavbarItem><Link href="#skills">// skills</Link></NavbarItem>
+          <NavbarItem><Link href="#projects">{"// projects"}</Link></NavbarItem>
         </NavbarContent>
         <NavbarContent>
           <NavbarItem>
